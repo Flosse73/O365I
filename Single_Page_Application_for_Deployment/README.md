@@ -1,9 +1,9 @@
 ---
 page_type: sample
 languages:
-- javascript <br> html
+- javascript <br/> html
 products:
-- microsoft-identity-platform <br>azure-active-directory-v2<br>Azure Logic Apps
+- microsoft-identity-platform <br/>azure-active-directory-v2<br/>Azure Logic Apps
 description: "A simple JavaScript single-page application calling Azure Logic Apps using msal.js"
 ---
 
