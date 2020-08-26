@@ -34,6 +34,7 @@ function httpRequest(name) {
     request.onload = function() {
         if(request.status < 400) {
             console.log("Response: " + request.status);
+            // display the Success of the request with additional info in the html page
             responseHeader.style.color = 'green';
             responseHeader.textContent = 'SUCCESS';
             responseText.innerHTML = 'StatusCode: ' + request.status + 
@@ -42,6 +43,7 @@ function httpRequest(name) {
         }
         else {
             console.error("Response: " + request.status);
+            // display "Error" with additional info in the html page
             responseHeader.style.color = 'red';
             responseHeader.textContent = 'ERROR';
             responseText.innerHTML = 'StatusCode: ' + request.status + 
