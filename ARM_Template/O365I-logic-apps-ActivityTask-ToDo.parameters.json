@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workflows_O365I_logic_app_ActivityTask_to_ToDo_name": {
+            "value": "O365I-logic-app-ActivityTask-to-ToDo"
+        },
+        "office365_1_Connection_DisplayName": {
+            "value": "todo"
+        },
+        "workflows_O365I-logic-app-ActivityTask-to-ToDo_parameters_$connections": {
+            "value": {
+                "todo": {
+                    "connectionId": "/subscriptions/2ba46627-93c3-483a-9f65-a5417070c679/resourceGroups/O365I-Test-default/providers/Microsoft.Web/connections/todo-1",
+                    "connectionName": "todo-1",
+                    "id": "/subscriptions/2ba46627-93c3-483a-9f65-a5417070c679/providers/Microsoft.Web/locations/westeurope/managedApis/todo"
+                }
+            }
+        }
+    }
+}
