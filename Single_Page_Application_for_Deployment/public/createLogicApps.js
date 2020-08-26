@@ -30,8 +30,7 @@ function httpRequest(name) {
     
     let responseHeader = document.getElementById("response_header");
     let responseText = document.getElementById("response");
-    let furtherActions = document.getElementById("further");
-    //let h5 = responseInHtml.querySelector('h5');
+
     request.onload = function() {
         if(request.status < 400) {
             console.log("Response: " + request.status);
